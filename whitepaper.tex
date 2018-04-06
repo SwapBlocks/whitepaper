@@ -27,7 +27,7 @@ applications is determined by the market price of the ecosystem's coin. % The un
 While these ecosystems may work for simple contract execution,
 many organizations that could benefit from the publicly verifiable nature of the
 ecosystem, especially those subject to complying with changing regulation,
-	are hesitant to do so due to the uncertain cost. 
+	are hesitant to do so due to uncertain cost. 
 In order for mainstream adoption organizations must have the ability to manage
 the cost of their own services.
 
@@ -52,7 +52,7 @@ and decentralized control of assets registered on the ledger.
 
 
 The Praedium protocol is a compliment to distributed ledger technology that enables
-asset managing entites to register and control the transfer of assets on a distributed
+asset managing entities to register and control the transfer of assets on a distributed
 ledger.  The Praedium network is an implementation of this protocol aimed at creating a network
 of clearing houses, making automated swap transactions between all asset classes possible.  Such a network
 would remove many of the cost associated with hiring expert facilitators, provide a publicly verifiable
@@ -361,7 +361,7 @@ In the future a proof of importance algorithm may be used to
 allow users to extend the max\_verify\_time.
 
 
-\subsection{Custom Transaction Verification}
+\subsection{Permissioned Smart Contracts}
 
 Praedium enables asset transactions to include temporary encrypted data packets. These data
 packets are used by municipal and consortium nodes to make verification decisions.  Asset transactions
@@ -398,7 +398,9 @@ its required weight, the transaction can be included in the next block and the d
 If the data packet has not passed verification the verifying node will not sign the transaction
 leaving the transaction to time out and be cleared from all network nodes.
 
-
+This verification process can be thought of as using permissioned smart contracts.  In the case of municipal
+verification, registering accounts are the only approved account to run the verification script on the asset.
+With consortium verification the smart contract will be defined in the consortium agreement.
 
 
 \begin{comment}

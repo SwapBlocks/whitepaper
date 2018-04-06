@@ -1,0 +1,16 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Praedium Protocol}{3}
+\contentsline {subsection}{\numberline {2.1}Base Protocol}{3}
+\contentsline {subsection}{\numberline {2.2}Consortium Extension}{4}
+\contentsline {section}{\numberline {3}Consortium}{4}
+\contentsline {subsection}{\numberline {3.1}Consortium Agreement}{5}
+\contentsline {subsection}{\numberline {3.2}Consortium Routing}{5}
+\contentsline {subsection}{\numberline {3.3}Routing DAG}{5}
+\contentsline {section}{\numberline {4}Node States}{6}
+\contentsline {section}{\numberline {5}Asset Registration}{7}
+\contentsline {subsection}{\numberline {5.1}Asset ID}{7}
+\contentsline {subsection}{\numberline {5.2}Weights}{7}
+\contentsline {section}{\numberline {6}Transactions}{8}
+\contentsline {subsection}{\numberline {6.1}Transaction Types}{8}
+\contentsline {subsection}{\numberline {6.2}Transaction Timeout}{9}
+\contentsline {subsection}{\numberline {6.3}Permissioned Smart Contracts}{10}
