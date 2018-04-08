@@ -51,15 +51,15 @@ and decentralized control of assets registered on the ledger.
 
 
 
-The Praedium protocol is a compliment to distributed ledger technology that enables
+The SWAPBlocks protocol is a compliment to distributed ledger technology that enables
 asset managing entities to register and control the transfer of assets on a distributed
-ledger.  The Praedium network is an implementation of this protocol aimed at creating a network
+ledger.  The SWAPBlocks network is an implementation of this protocol aimed at creating a network
 of clearing houses, making automated swap transactions between all asset classes possible.  Such a network
 would remove many of the cost associated with hiring expert facilitators, provide a publicly verifiable
 lineage of each asset, and eliminate the need for two parties to convert to a common currency.
 
 
-Praedium node API’s will enable seamless integration into 
+SWAPBlocks node API’s will enable seamless integration into 
 existing record keeping infrastructure and encourage fast adoption. These 
 features enable regulated and physical assets to be exchanged as quickly, cheaply
 and easily as cryptocurrency.
@@ -75,7 +75,7 @@ the hash of the data provided by the registering entity consumers can easily
 confirm data integrity and detect tampering by the asset manager.
 
 
-\section{Praedium Protocol}
+\section{SWAPBlocks Protocol}
 \subsection{Base Protocol}
 Assets are registered on the network by creating a new asset object containing 
 a unique\_id, a pointer to the issuer, an asset\_id created by hashing the pointer 
@@ -126,6 +126,13 @@ enables a central entity to benefit from the distributed properties of a decentr
 Consortiums also reduce the amount of trust needed to interact with any particular central 
 entity since the operating agreement can be read and verified on the blockchain.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.85\textwidth]{consortium}
+	%\caption{}
+	\label{fig:nodespace1}
+\end{figure}
+
 
 \subsection{Consortium Agreement}
 
@@ -173,7 +180,7 @@ is determined by the assets assigned weight value.
 
 \section{Node States}
 
-Praedium assets view nodes in 3 different states. The state that the node is viewed in 
+SWAPBlocks assets view nodes in 3 different states. The state that the node is viewed in 
 by the asset determines the level of verification the node is allowed to and should
 perform.
 
@@ -235,7 +242,7 @@ transaction to update the valid\_through date.
 
 \subsection{Asset ID}
 
-Assets on the Praedium network are represented by a unique asset ID (UAI).  
+Assets on the SWAPBlocks network are represented by a unique asset ID (UAI).  
 The UAI is created by hashing the consortium address with the municipal address 
 and then hashing that with the municipal ID to create the base\_id.
 
@@ -294,7 +301,7 @@ a transaction has in it's routing DAG.
 \section{Transactions}
 
 \subsection{Transaction Types}
-There are 5 basic types of transactions in praedium.
+There are 5 basic types of transactions in SWAPBlocks.
 
 \begin{enumerate}
 	\item Currency
@@ -361,9 +368,9 @@ In the future a proof of importance algorithm may be used to
 allow users to extend the max\_verify\_time.
 
 
-\subsection{Permissioned Smart Contracts}
+\section{Permissioned Smart Contracts}
 
-Praedium enables asset transactions to include temporary encrypted data packets. These data
+SWAPBlocks enables asset transactions to include temporary encrypted data packets. These data
 packets are used by municipal and consortium nodes to make verification decisions.  Asset transactions
 can include two separately encrypted data packets for multi level verification and increased privacy.
 
@@ -403,62 +410,7 @@ verification, registering accounts are the only approved account to run the veri
 With consortium verification the smart contract will be defined in the consortium agreement.
 
 
-\begin{comment}
-
-\subsection{Use Cases}
-
-Automation of back-office task associated with asset management.
-
-
-
-
-
-\section{Praedium Ledger}
-
-The Praedium protocol can be implemented using any distributed ledger. Initially the
-network will be built using a blockchain, but this will be migrated to a DAG based
-ledger in the future after the technology matures and the Praedium network
-
-	\subsection{Currency}
-	The Praedium currency is called Pradi and is used to pay routing fees, 
-	acts as an incentive for miners to support the network and can be used 
-	as standard cryptocurrency on the Praedium network. 
-
-There will be 2\^53 total Pradi and they will use a decimal naming convention.
-
-
-
-1 Trillion Pradi = 1  TP (Trillion Pradi)
-1 Billion Pradi = 1  BP (Billion Pradi)
-1 Million Pradi = 1 MP (Million Pradi)
-1 Thousand Pradi = 1000 P (Pradi)
-
-
-
-	\subsection{Mining}
-	The Praedium network aims to move to a DAG based ledger after the network has 
-	stabilized which will enable a higher number of total transactions.  However 
-	the initial network will be built using a blockchain.  When the DAG is 
-	introduced miners will be rewarded based on a proof of importance protocol 
-	and through routing fees.  In the meantime miners will be rewarded through 
-	routing fees and POW block rewards.
-
-
-
-
-\section{Use Cases}
-	\begin{enumerate}
-		\item{Exchanges can be built with a theoretically infinite amount
-			of trading pairs.  Assets could be traded for any other asset.
-			Real estate could be traded for commodities, securities could
-			be traded for crypto currency, etc.}
-		\item{}
-
-	\end{enumerate}
-
-
-\end{comment}
-
+\section{DPOS Blockchain}
 
 
 
