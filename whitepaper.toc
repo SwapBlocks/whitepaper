@@ -1,16 +1,29 @@
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {2}SWAPBlocks Protocol}{3}
-\contentsline {subsection}{\numberline {2.1}Base Protocol}{3}
-\contentsline {subsection}{\numberline {2.2}Consortium Extension}{4}
-\contentsline {section}{\numberline {3}Consortium}{4}
-\contentsline {subsection}{\numberline {3.1}Consortium Agreement}{5}
-\contentsline {subsection}{\numberline {3.2}Consortium Routing}{5}
-\contentsline {subsection}{\numberline {3.3}Routing DAG}{6}
-\contentsline {section}{\numberline {4}Node States}{6}
-\contentsline {section}{\numberline {5}Asset Registration}{7}
-\contentsline {subsection}{\numberline {5.1}Asset ID}{7}
-\contentsline {subsection}{\numberline {5.2}Weights}{8}
-\contentsline {section}{\numberline {6}Transactions}{9}
-\contentsline {subsection}{\numberline {6.1}Transaction Types}{9}
-\contentsline {subsection}{\numberline {6.2}Transaction Timeout}{10}
-\contentsline {section}{\numberline {7}Permissioned Smart Contracts}{10}
+\contentsline {section}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {2}SWAPBlocks Protocol}{4}
+\contentsline {subsection}{\numberline {2.1}Base Protocol}{4}
+\contentsline {subsection}{\numberline {2.2}Consortium Extension}{5}
+\contentsline {section}{\numberline {3}Consortium}{5}
+\contentsline {subsection}{\numberline {3.1}Consortium Agreement}{6}
+\contentsline {subsection}{\numberline {3.2}Consortium Routing}{6}
+\contentsline {subsection}{\numberline {3.3}Routing DAG}{7}
+\contentsline {section}{\numberline {4}Node States}{7}
+\contentsline {section}{\numberline {5}Asset Registration}{8}
+\contentsline {subsection}{\numberline {5.1}Asset ID}{8}
+\contentsline {subsection}{\numberline {5.2}Weights}{9}
+\contentsline {section}{\numberline {6}Transactions}{10}
+\contentsline {subsection}{\numberline {6.1}Transaction Types}{10}
+\contentsline {subsection}{\numberline {6.2}SWAP Order book (The SWAP DEX)}{11}
+\contentsline {subsection}{\numberline {6.3}Transaction Timeout}{11}
+\contentsline {section}{\numberline {7}Permissioned Smart Contracts}{12}
+\contentsline {section}{\numberline {8}DPOS Blockchain}{13}
+\contentsline {section}{\numberline {9}Use Cases}{14}
+\contentsline {subsection}{\numberline {9.1}Decentralized Global Asset Exchanges and Clearing Houses}{14}
+\contentsline {subsection}{\numberline {9.2}Automated Asset Registration and Tax Collection}{14}
+\contentsline {subsection}{\numberline {9.3}Back Office Automation}{14}
+\contentsline {subsection}{\numberline {9.4}Enhanced Public Trust}{14}
+\contentsline {section}{\numberline {10}SWAPBlocks Business Plan}{15}
+\contentsline {subsection}{\numberline {10.1}Launch Lisk Clone}{15}
+\contentsline {subsection}{\numberline {10.2}Integrate SWAPBlocks Protocols With Lisk Clone}{15}
+\contentsline {subsection}{\numberline {10.3}Launch A SWAPBlocks Decentralized Exchange Portal}{15}
+\contentsline {subsection}{\numberline {10.4}Create a Fiat Consortium and Register Fiat Assets on SWAPBlocks}{15}
+\contentsline {subsection}{\numberline {10.5}Partner With Small Brokerages}{15}

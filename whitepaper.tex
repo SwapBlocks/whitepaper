@@ -8,7 +8,7 @@
 \title{SWAPBlocks \\A Cost Saving Blockchain Protocol\\ for Managing Real Assets}
 \author{Lance Rogers & Brandon McPherson}
 
-\date
+\date{\today}
 
 \begin{document}
 
@@ -306,7 +306,7 @@ There are 5 basic types of transactions in SWAPBlocks.
 \begin{enumerate}
 	\item Currency
 		\begin{itemize}
-			\item{Involves the transfer of Pradi tokens from one address to another.}
+			\item{Involves the transfer of SXB coins from one address to another.}
 			\item{Currency transactions can be validated by checking UTXOs and the
 				validation can be performed by every node in the network.}
 		\end{itemize}
@@ -324,6 +324,12 @@ There are 5 basic types of transactions in SWAPBlocks.
 			\item{Transaction in which two parties agree to swap 
 				ownership of two assets with the contingency that 
 				each transaction clears before the swap completes.}
+			\item{Contains maker and taker sections. Both sections must
+				be complete and verified for the transaction to be eligible for
+				the next block.}
+			\item{If the bid section is blank, then the transaction is considering pending and can
+				be filled by any bidder and rebroadcast to the network. These pending SWAP transactions
+				will be stored in the SWAP order book, which is like a mempool for SWAP transactions. 
 		\end{itemize}
 	\item Asset Probe
 		\begin{itemize}
@@ -345,7 +351,10 @@ There are 5 basic types of transactions in SWAPBlocks.
 
 % TRANSACTION DIAGRAMS HERE
 
-
+\subsection{SWAP Order book (The SWAP DEX)}
+The SWAP order book is a specialized mempool for storing unverified SWAP transactions.  What this means is that
+all SWAP transactions without a taker will be stored in a separate mempool for quick lookup. 
+Decentralized exchange portals will be able to utilize this mempool to quickly place and fulfil orders.
 
 
 \subsection{Transaction Timeout}
@@ -353,8 +362,8 @@ There are 5 basic types of transactions in SWAPBlocks.
 
 In order to limit the number of unverified transactions in the mempool, 
 transactions are created with a max\_verify\_time.  The max\_verify\_time
-is the time at which the transaction must be verified.  If a node has 
-transactions in its mempool past the max\_verify\_time the node can delete 
+is the latest time a transaction may be kept in the mempool.  If a node has 
+transactions in its mempool past the max\_verify\_time the node can discard 
 the transactions.  This helps to prevent spam transactions from bloating the 
 mempool without needing to charge a fee.
 
@@ -367,6 +376,8 @@ The max\_verify\_time will have a constant max time on network launch.
 In the future a proof of importance algorithm may be used to 
 allow users to extend the max\_verify\_time.
 
+To prevent users from issuing transactions with extremely long max\_verify\_time's, transactions max\_verify\_time
+must be less than or equal to a network constant as part of standard verification.
 
 \section{Permissioned Smart Contracts}
 
@@ -411,10 +422,64 @@ With consortium verification the smart contract will be defined in the consortiu
 
 
 \section{DPOS Blockchain}
+SWAPBlocks blockchain and is used to secure the asset registry.  SBX coins will be issued to incentivize 
+people to run the network by voting and running network nodes. The base blockchain 
+is based on LISK and will initially allow users to run delegate nodes, vote for delegates, and transfer SBX 
+coins between accounts.  In the future users will be able to register assets, earn SBX coins for running delegate and
+routing nodes and trade assets registered on the SWAPBlocks blockchain.
+
+\pagebreak
+
+\section{Use Cases}
+
+\subsection{Decentralized Global Asset Exchanges and Clearing Houses}
+	\begin{itemize}
+		\item{Automated Corp to Corp Asset Swaps}
+		\item{Crypto to Forex Swaps}
+		\item{Security Exchanges}
+		\item{Bond Exchanges}
+	\end{itemize}
+
+\subsection{Automated Asset Registration and Tax Collection} 
+	\begin{itemize}
+		\item{Motor Vehicle Registration}
+		\item{Real Estate Registration, Formal Recording of Deeds and Title Maintenance}
+	\end{itemize}
 
 
+\subsection{Back Office Automation}
+	\begin{itemize}
+		\item{System Integration}
+		\item{Compliance}
+		\item{Data Governance}
+	\end{itemize}
+
+\subsection{Enhanced Public Trust}
+	\begin{itemize}
+		\item{Organizations can use SWAPBlocks as a proof against data tampering.}
+		\item{All data sent through SWAPBlocks network is hashed and the hash is stored
+			by the main chain.  This hash can be referenced to provide proof of 
+			data integrity.}
+	\end{itemize}
+\pagebreak
+	
+\section{SWAPBlocks Business Plan}
 
 
+\subsection{Launch Lisk Clone}
 
+\subsection{Integrate SWAPBlocks Protocols With Lisk Clone}
 
+\subsection{Launch A SWAPBlocks Decentralized Exchange Portal}
+
+\subsection{Create a Fiat Consortium and Register Fiat Assets on SWAPBlocks}
+
+\subsection{Partner With Small Brokerages}
+	\begin{itemize}
+		\item{Bonds}
+		\item{Securities}
+		\item{Commodities}
+
+	\end{itemize}
+		
 \end{document}
