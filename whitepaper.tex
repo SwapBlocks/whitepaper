@@ -6,7 +6,7 @@
 
 
 \title{SWAPBlocks \\A Cost Saving Blockchain Protocol\\ for Managing Real Assets}
-\author{Lance Rogers & Brandon McPherson}
+\author{Lance Rogers \& Brandon McPherson}
 
 \date{\today}
 
@@ -422,64 +422,318 @@ With consortium verification the smart contract will be defined in the consortiu
 
 
 \section{DPOS Blockchain}
-SWAPBlocks blockchain and is used to secure the asset registry.  SBX coins will be issued to incentivize 
-people to run the network by voting and running network nodes. The base blockchain 
-is based on LISK and will initially allow users to run delegate nodes, vote for delegates, and transfer SBX 
-coins between accounts.  In the future users will be able to register assets, earn SBX coins for running delegate and
-routing nodes and trade assets registered on the SWAPBlocks blockchain.
+SWAPBlocks will utilize a Delegated Proof of Stake consensus algorithm to secure the blockchain. The native 
+tokens (SBX) are software licenses that grant owners certain rights to utilize the SWAPBlocks protocol. These 
+rights include but are not limited to the right to execute transactions as described in section 6.1, and 
+the right to vote for delegates who will secure the blockchain. The purpose of this structure is to create a 
+self-sustaining environment that does not require a central entity to sustain proper functionality. SBX is necessary 
+for the blockchain to be secure, this means SBX license coins cannot exist without the blockchain, and the 
+blockchain cannot be secured without freely transferable SBX. SBX must be fully transferable in order for new network 
+nodes to quickly and easily take the place of network nodes that no longer wish to operate, without the need for 
+a centralized intermediary to facilitate the transition. The base blockchain is based on LISK and will initially allow 
+users to run delegate nodes if elected, vote for delegates, and transfer SBX coins between accounts. In the future 
+users will be able to register assets, earn SBX coins for running delegate and routing nodes and trade assets 
+registered on the SWAPBlocks blockchain.  
+
 
 \pagebreak
 
 \section{Use Cases}
 
-\subsection{Decentralized Global Asset Exchanges and Clearing Houses}
-	\begin{itemize}
-		\item{Automated Corp to Corp Asset Swaps}
-		\item{Crypto to Forex Swaps}
-		\item{Security Exchanges}
-		\item{Bond Exchanges}
-	\end{itemize}
+\subsection{DLT Global Asset Exchanges \& Clearinghouses}
+Perhaps the largest opportunity for the SWAPBlocks protocol to make a deep impact is global capital markets. Today, 
+capital markets operate with significant need for manual validation and intermediation. This inefficiency permeates 
+almost every aspect of the market.
 
-\subsection{Automated Asset Registration and Tax Collection} 
-	\begin{itemize}
-		\item{Motor Vehicle Registration}
-		\item{Real Estate Registration, Formal Recording of Deeds and Title Maintenance}
-	\end{itemize}
+SWAPBlocks will not only create a marketplace for participants to operate with increased freedom and efficiency, 
+it will enable them to form “submarkets” that enable governance based on specific needs associated with a given 
+asset class, geographic location or other distinguishing factors.
 
+This use case encompasses a wide range of asset types, each with their own nuances and regulatory requirements. 
+The SWAPBlocks consortium model allows groups of participants to take advantage of the benefits of distributed 
+ledger technology while ensuring their assets are traded within the confines of any rules, laws or regulations 
+applicable to that market. A key distinction of SWAPBlocks is that our approach is one that seeks to allow entities 
+to begin to engage in the digital economy without requiring them to make unreasonable leaps away from existing 
+systems and market needs. Some asset-specific examples of the platform’s value creation follow.
+
+\subsection{Foreign Exchange}
+
+Entities (banks, non-bank financials, SWAPBlocks, or any other institution) could issue fiat-backed assets on 
+the SWAPBlocks platform. This would allow for the exchange of fiat currency between parties as well as the utilization 
+of blockchain benefits for fiat denominated payments. Any user could pay for goods and services using these fiat-backed 
+assets as long as the seller accepts them. This provides both parties with many of the benefits of using the 
+blockchain (immutability, auditability, trustless transfer, custodial flexibility) without subjecting themselves to 
+the purchasing power fluctuations of an asset like Bitcoin.
+
+Parties could also trade with the intent to profit from currency fluctuations as on traditional forex markets. Benefits of 
+using this system are that with SWAPBlocks, there’s no intermediary required, and custody of the assets can remain 
+with the owner until the moment of transfer.
+
+A third use case for foreign exchange would be travel. Someone traveling from the US to Europe could easily trade 
+USD for EUR on SWAPBlocks, and assuming the dApp platform issuing the fiat-backed assets supports it, the user 
+could easily convert those assets to actual fiat through a simple debit card transaction.
+
+
+\subsection{Bonds}
+Debt markets represent one of the largest opportunities for the SWAPBlocks platform to impact market efficiency. 
+Today, bond issuers rely heavily on financial intermediary to issue debt and manage principle and interest payments 
+or other corporate actions like the exercise of embedded options. With SWAPBlocks, much of this can be disintermediated 
+and automated. To understand the impact the platform can have, one must consider the perspective of investors in 
+the market and the perspective of the issuer.
+
+Significant efficiency gains can be made by debt issuers utilizing SWAPBlocks. The existing processes for 
+corporate actions involve archaic messaging standards like ISO 15022 which require manual processing on the part of 
+central securities depositories who then route payments to the appropriate destination. Not only does this process 
+require trust in the depository, but it represents significant costs. These costs are bore by the issuer and represent 
+an increase to the cost of capital. On the SWAPBlocks platform, issuers have no need for central securities depositories 
+because owners have custody of those assets and are easily identifiable. This means interest or principal payments can be 
+automatically routed to the appropriate parties. Furthermore, this action can take place much faster than today. Couple 
+this fact with the instantaneous settlement features of the blockchain, and the result is a market where buyers 
+and sellers can trade almost up to the moment of disbursement without concern for ex-coupon dates.
+
+Another significant advance of the platform will be derived from the fact that many assets types will coexist. In 
+section 9.1.1 we discussed the ability for fiat-backed assets to live on SWAPBlocks. Once this is the case, bond 
+issuers will have the ability to disburse P\&I directly to bondholders in any asset type that resides within the ecosystem. 
+This means a bond could pay interest in USD backed coins, EUR backed coins or any other fiat-backed token. 
+Additionally, other assets types could be used as well (bitcoin-backed tokens, etc.). This functionality is important 
+because it enables unprecedented flexibility for issuers and allows them to participate in the benefits of the 
+ecosystem without the currency translation risk of a platform relying solely on a native token or Ether.
+
+From the investor’s standpoint, SWAPBlocks offers transparency that is not available in today’s dealer-based market. 
+Bond trading desks have historically been extremely profitable for banks because the market is opaque. Buyers and 
+seller do not have adequate means to find each other. To this point, dealers have maintained bond inventories and 
+source bonds for buyers if a bond is not in their inventory. The result is a market where buyers have visibility 
+into prices that sellers are actually requiring. Conversely, sellers have no direct path to buyers or way to understand 
+what the market’s appetite may be for bonds with similar characteristics to the one they wish to sell. The only 
+winner in this paradigm is the bank’s bond desk, who tacks on hefty fees for playing the middleman. 
+
+SWAPBlocks overcomes these inefficiencies in two ways. First, by allowing buyers and sellers to see orders in real time, 
+market participants can not only purchase directly, without an intermediary, but they can price their debt holdings more 
+appropriately as well. Second, potential buyer could query the blockchain and see public keys for all holders of a given bond. 
+A simple messaging application would allow the buyer to make direct offers to bondholders even if there were no active asks in 
+the order book. These attributes would not only transform the methods investors use to transact but also reduce information 
+asymmetry and counterparty risk while improving liquidity. The result will be a decrease in the required rate of return, 
+further decreasing the cost of debt capital for issuers.
+
+The bond market is especially ripe for this technology, but small and micro-cap corporate bonds stand to gain 
+tremendously. Today, there isn’t any good way for bondholders of small corporate debt to easily exit their position 
+in the secondary market. This leads to an illiquidity premium which represents a significant cost to the issuer and 
+reduces the number of investors willing to hold that debt. If these corporations were to issue their bonds on SWAPBlocks, 
+they would be providing their investors with an outlet to connect with others in the market. Doing so would unlocks a 
+massive amount of potential liquidity in the debt markets.
+
+\subsection{Equities}
+Many of the advantages discussed in 9.1.1 and 9.1.2 are applicable to equities and other asset types covered here. 
+However, they do present some distinct attributes. Equities would work in a similar fashion to bonds on the SWAPBlocks 
+platform with regard to advantages the platform offers in the areas of custody and holder of record issues and cash 
+dividend disbursement. Areas of distinction from other assets types include:
+
+	\begin{itemize}
+		\item{Stock dividends}
+			\begin{itemize}
+				\item{Stock dividends could be managed in a way similar to cash 
+					dividends with respect to the identification of owners and 
+					disbursement to those owners, but those owners would receive 
+					equity tokens instead of fiat-backed, or some other asset type. }
+				\item{If the issuing entity held existing equity tokens on account 
+					(i.e. treasury stock), they could disburse these directly.}
+				\item{If new tokens had to be created it would follow the process outlined 
+					in section 5 prior to being distributed to the appropriate asset owners.}
+			\end{itemize}
+		\item{Stock Splits}
+			\begin{itemize}
+				\item{Stock splits would work similarly to bullet 3 under stock dividends.
+					}
+			\end{itemize}
+		\item{Reverse Splits}
+			\begin{itemize}
+				\item{Reverse splits will require asset owners to submit their existing equity 
+					assets to the issuer in return for new ones in proportion to the split 
+					ratio. Managing this process would take a few forms. One option could be 
+					to utilize the asset probe function described in section 6.1 to change the 
+					valid\_through date. This date would then represent the asset’s expiration 
+					and a deadline for asset owners to submit them in return for the new tokens. 
+					Contingencies could be made for late submissions based on the issuer’s needs.}
+			\end{itemize}
+		\item{Proxy Votes}
+			\begin{itemize}
+				\item{Proxy voting could initially use existing voting mechanism that reference 
+					the blockchain to validate voter rights.}
+				\item{More advanced and automated voting could be implemented as the platform 
+					matures that enables direct voting by asset owners that uses a private 
+					key signature for a given public key to validate the vote.}
+			\end{itemize}
+	\end{itemize}
+\subsection{Crypto/Crypto \& Crypto/Fiat Swaps}
+Many cryptocurrency exchanges are being developed today. These are classified primary into the two broad categories of 
+centralized and decentralized. Centralized exchanges have certain advantages when it comes to transaction speed and 
+flexibility because they settle off-chain and simply adjust ownership entries on their own internal ledgers. Their 
+inherent disadvantage is that their existence is in contrast to the decentralized nature of the blockchain revolution.
+By requiring custody of any asset being traded, owners are subject to significant counterparty risk. Furthermore, the 
+advantages of trustless transactions on a blockchain are partly undone when one has to give away that advantage to exchange 
+that asset.
+
+Decentralized exchanges are the flipside to that coin, where no trust is required because custody remains in 
+the hands of the owners until the transaction is validated. There are a few drawbacks to these current models 
+however. One is that on-chain order books can lead to high latency and bottlenecks. Additionally, it requires 
+fees to place orders as well as to cancel them. This is inefficient, costly, and is a disincentive to market making activities. 
+
+Hybrid functionality, where the order-book is off-chain, but transaction settlement is on-chain is a likely equilibrium. 
+While not completely trustless (i.e. user must trust the order-book application is truthful), the counterparty risk is 
+significantly diminished because asset custody remains with the owner. However, it enables users to place/cancel orders 
+freely and will lead to the liquidity decentralized exchanges currently lack.
+
+SWAPBlocks will operate in this “goldilocks” zone by implementing the specialized DEX discussed in section 6.2. The reference 
+to decentralized exchange portals speaks to the ability for any third party to create front-end applications that facilitate 
+the exchange of assets on the platform.
+
+Just as SWAPBlocks or another third party will create fiat-backed tokens, other crypto-assets can be 
+represented on the platform in a similar manner. In essence, these are proxy-assets that are redeemable 
+for the actual asset that was deposited. For example, SWAPBlocks or another third party could implement a 
+dApp that managed the deposits and withdrawals of Bitcoin and allowed users to perform asset swaps on SWAPBlocks 
+using Bitcoin. The dApp would receive the user’s Bitcoin deposit and issue a SWAPBlocks-based BTC token. Users 
+wishing to withdrawal the actual bitcoin for any reason could do so in the same manner that a user wishing to 
+withdraw actual USD for their USD-backed token could. The functionality of this process would be similar to the 
+crypto-bridge application which runs on the BitShares network. The importance would be for users to ensure the 
+party responsible for asset deposits/withdrawals is operating in a way that reduces trust and/or increases 
+accountability (published audits, distributed gateway system, etc.), and guards against loss in the event the 
+company creating the dApp goes out of business.
+
+\subsection{Limited Partnership Shares}
+
+LP shares serve as an excellent example of how SWAPBlocks can improve market conditions for investors and 
+issuers alike. Whether for a hedge fund or private equity, LP investments are very illiquid because the 
+general partner needs to operate for extended periods without worry of significant redemptions in order to 
+ensure they can execute the investment strategy appropriately. For investors, this means very illiquid holdings, 
+which translates to higher required returns by investors.
+
+SWAPBlocks can offer investors and investment firms the ability to forego these hurdles by listing LP shares on the 
+platform. They could manage those assets in two primary ways. The first would be to issue LP shares as a Weight 2, 
+requiring any asset transfer to be validated by the issuing firm itself. This allows the firm to ensure that any 
+buyers of the shares are whitelisted and legally able to purchase in a given jurisdiction. The second option would 
+be to form a consortium, as outlined in section 3, with similar firms. In addition to validating each other’s 
+transactions, the consortium members would share the same rules for LP share transfers as well as whitelisted investors.
+
+This would create a new secondary market that does not exist today and enable investors to unlock liquidity not 
+previously available. This would also allow firms to maintain capital levels more easily because investors’ 
+liquidation of a position does not have to take the form of redemptions.
+
+\subsection{Money Market Instruments}
+
+Money market securities are typically a bit less complex than other asset classes like equities or LP shares. They 
+primarily issue for one amount, and the holder receives a higher amount at maturity, similarly to a pure discount 
+bond nearing maturity. Whether it is CDs, commercial paper, T-bills or repos, SWAPBlocks would enable money market 
+participants to utilize the instant settlement and auditability, trustless transfer, and disintermediation of 
+the blockchain protocol.
+
+While striking a deal with the US government to issue T-bills on the platform might be a difficult task, that 
+wouldn’t be the only way to incorporate this volume. An intermediary step could be for large institutions to 
+utilize the platform for its efficiencies and upon maturity, disburse final payments either using SWAPBlocks-based 
+assets or using the legacy financial system. All trading in the meantime could be housed on the platform and the 
+issuing entity could form consortiums of similar issuers to validate transactions and reap the fees for doing so. 
+While the former would be more decentralized, the latter approach would be a strong step in the direction of 
+efficiency, transparency and decentralization. This concept would serve as an example of how other money market 
+instruments could be listed and exchanged on the platform as well.
+
+\subsection{Commodities}
+Cash settled commodities are yet another asset type that would benefit from living on the SWAPBlocks ecosystem. 
+Similar to the benefits reaped by other asset types, commodities would benefit by being able to automatically cash 
+settle using any supported asset type (fiat-backed, crypto-backed, direct commodity swap). Even if issuers desired 
+to settle upon maturity using legacy financial system means (ACH, wire transfer), there would be other benefits, 
+like the option to develop consortiums of commodity asset issuers to govern specific market segments.
+
+\subsection{Derivatives}
+Derivatives represent and interesting use case as they are inherently more complex in many cases. For instance, 
+forward rate agreements would require a clearinghouse to mark to market each day and insure agreements are kept. Some 
+of this could be automated, but without a clearinghouse there would be no recourse for the opposing party when a 
+counterparty defaults.
+
+
+This introduced an opportunity for partnership with clearinghouse services who would benefit from the ability to easily 
+credit accounts in a way that further reduced counterparty risk (i.e. the clearinghouse effectively diversifies the 
+market’s counterparty risk, but participants are still exposed to the risk of the clearinghouse itself not 
+upholding its duties).
+
+Futures contracts and other derivative types would trade in a similar fashion, with a clearinghouse, or group of 
+clearinghouses forming a SWAPBlocks consortium and validating transactions on the platform, marking to market based 
+on consortium rules, and cash settling based on consortium rules or the issuing municipal node’s rules.
+
+The major advantages would be twofold. First, the market would receive price transparency, because trade history 
+and bids/asks would be visible to all participants in real time, effectively removing the intermediary’s moral 
+hazard. Second, many settlements could be automated. For example, a call or put option could exercise automatically 
+as long as the underlying asset lived on the SWAPBlocks platform.
+
+\subsection{Automated Corp to Corp Asset Swaps}
+Corporations that transact with each other in “paper” assets or real assets that cash settle could be directly 
+swapped on the platform. This would provide parties with the ability to settle and audit quickly and easily with 
+reduced risk of user error. Tokens representing these assets would only be tradable between the associated parties 
+by simply issuing the asset validation rules so that only whitelisted counterparties can hold them. In this way, 
+attempted transactions involving anyone else will fail to validate at either the consortium level (if the parties 
+create one), or more likely for low volume transaction types, at the municipal level.
+
+\subsection{Automated Asset Registration and Tax Collection}
+
+While tradable financial assets may represent a large portion of the opportunity, numerous other types of assets can be represented on the SWAPBlocks platform. The levelled approach to transaction validation creates a flexible framework for asset governance that does not exist on other platforms. An entity desiring to issue a token representing ownership of an asset can do so with any level of verification. Consortium nodes can hand of verification data to record keeping systems of their choosing, enabling integration with future and legacy systems.  This allows governments to take advantage of the SWAPBlocks ecosystem without being forced to hire niche specialist for everyday task, retrain all employees or upgrade existing infrastructure.
+
+\subsection{Motor Vehicle Registrations \& Titles}
+Vehicle registrations and titles in the US are managed at the state level, however paper records are easily lost or damaged. Each state could issue these documents as tokenized assets that allow vehicle owners to more securely maintain their records and transfer ownership in a trustless manner. Ownership lineage would be easily identified by motor vehicle departments. Transactions of an asset would have to be validated by the municipal node (the DMV) before the transaction was completed. Additionally, the issuing agency could elect to accept tax payments in any asset type supported by the SWAPBlocks platform.
+
+\subsection{Real Estate Registration \& Lineage}
+Real estate use cases are similar with regard to ownership lineage and taxation. Many functionalities currently done manually in the real estate market could be improved by utilizing the blockchain. A prime reason why SWAPBlocks is the best platform to do this on is the unique validation governance model.
+
+\subsection{Insurance Policies}
+Insurers could trade policies between themselves to source liquidity without concern of unsanctioned buyers participating.
+
+\subsection{Other}
+
+There is significant potential for other industries to utilize this functionality. As the market develops and society begins to understand the vast benefits a platform like SWAPBlocks can provide, we believe new use cases will continuously evolve and develop.
 
 \subsection{Back Office Automation}
-	\begin{itemize}
-		\item{System Integration}
-		\item{Compliance}
-		\item{Data Governance}
-	\end{itemize}
+Today’s back office functions are comprised of three primary functions. Those functions are settlement, compliance, and data governance. The SWAPBlocks protocol will allow organizations to streamline these functions through the integration of their existing systems.
+
+Settlement of asset transfers is immediate, immutable, and instantaneously auditable on the blockchain. These attributes enable organizations to do away with costly labor capital associated with manual and semi-manual labor processes in use today. It also removes the duplication of work. In the current environment, both parties to a transaction will have their own back office settlement processes, and each party is responsible for performing those tasks and reporting on them. Using the blockchain, both parties reference the same transaction on the public ledger. By integrating their back-office systems with the SWAPBlocks blockchain, users track and report on transaction settlement with ease.
+
+Compliance is the second function of an organization’s back office, and it represents a significant cost for most industries, particularly financials. Compliance processes are improved using the SWAPBlocks platform for asset issuers and investors. Issuers benefit by being able to quickly reference the municipal and/or consortium rules that govern a given asset. This ensures that the asset was not bought or sold by anyone without the appropriate permissions to do so. For example, consider a hedge fund that issued LP share tokens as a weight 1 asset. If a compliance audit was required, the hedge fund could reference the consortium agreement which would show that appropriate measures were in place for transaction validation. Additionally, they could reference the consortium data packets (see sections 3 and 7) to review a specific transactions or group of transactions. Keep in mind that some markets will be large, with standardized consortium rules. In our hedge fund example, rules regulating the transfer of LP shares would be standardized in most cases, so the issuer isn’t necessarily responsible for compiling transaction rules themselves. 
+
+For the investor, recordkeeping is drastically simplified because their transactions are stored on the blockchain and easily referenced. While this isn’t specific to SWAPBlocks, our platform will provide value compared to permissioned blockchains from a cost perspective. For an institutional investor to create their own permissioned blockchain would require a large initial outlay. Utilizing SWAPBlocks’ blockchain history is free. As the ecosystem matures, and more markets come online with more volume, this ease of compliance and reporting will incentivize deeper relationships with the protocol.
+
+From a governance perspective, public blockchains ensure that records are accurate and cannot be changed ex-post facto. This is vital because it provides assurance that your transaction data is accurate and tampering, whether purposeful or by accident, has not occurred. SWAPBlocks offers additional convenience for users transacting in multiple asset classes. By eliminating the needs for intermediaries and counterparties specific to each asset class, investors can go from compiling statements from multiple departments at multiple banks and other institutions, to obtaining reporting on all transactions across asset classes in a few clicks.
 
 \subsection{Enhanced Public Trust}
-	\begin{itemize}
-		\item{Organizations can use SWAPBlocks as a proof against data tampering.}
-		\item{All data sent through SWAPBlocks network is hashed and the hash is stored
-			by the main chain.  This hash can be referenced to provide proof of 
-			data integrity.}
-	\end{itemize}
-\pagebreak
-	
-\section{SWAPBlocks Business Plan}
+Public trust lends legitimacy to many governing bodies, regulatory organizations and many other types of entities. Without the public’s confidence, the usefulness of the work those organizations do is greatly diminished. SWAPBlocks offers these entities a new way to build trust by providing a mechanism for public verification of the underlying data used to derive their outputs.
+
+What does a real-world example of a relationship between the SWAPBlocks platform and an entity as described above? Consider a contested topic like climate science. This topic is hotly debated and there have been numerous claims of bias and data manipulation for even the most respected organizations such as NOAA1. SWAPBlocks could offer a solution, because consortium and municipal data packets are hashed prior to being discarded there is a digital fingerprint of the raw input data. In this example, the climate research entity would publish the underlying data used for their reporting, allowing the public to hash it and verify it matches the hash from the original data.
+
+This process could extend to numerous organizations and data types including:
+
+\begin{itemize}
+	\item{Census surveys}
+	\item{Voting}
+	\item{Economic Surveys}
+\end{itemize}
+
+Because the organization operates as a sole municipal node, or as part of a consortium, they can ensure information within the data packets is not made available to inappropriate parties on the front end. Only the hash is public. This would be important for instances where public availability of the raw data prior to publishing results would be sub-optimal. For instance, for sampling purposes, if the public could see survey responses it could taint the sampling window, but because the SWAPBlocks platform only reveals this the data packet to consortium and/or municipal nodes, that data is managed privately while leaving a unique hash behind on the blockchain.
 
 
-\subsection{Launch Lisk Clone}
+\section{The SBX Token}
 
-\subsection{Integrate SWAPBlocks Protocols With Lisk Clone}
+\subsection{Structure \& Functionality}
+SBX is the native token on the SWAPBlocks blockchain. As briefly mentioned in section 8, SBX tokens are software licenses that grant users rights to transact and govern the SWAPBlocks ecosystem. Unlike traditional software licenses in use today, by tokenizing the licenses SWAPBlocks can ensure that the public will have the ability to use, operate and upgrade the network regardless of the existence of any centralized business entity.
 
-\subsection{Launch A SWAPBlocks Decentralized Exchange Portal}
+This is accomplished in a few ways. As part of the licensing rights, licensees (i.e. those who own SBX) are authorized to vote for delegate nodes who will validate transaction and keep the platform operational. This means that if a delegate fails to perform their duties they can easily be voted out and replaced by another party, ensuring sustainability. Additionally, SBX authorizes users to perform any transaction type described in section 6.1.
 
-\subsection{Create a Fiat Consortium and Register Fiat Assets on SWAPBlocks}
+Traditional software licenses are spent on the basis of time. The license grants the licensee rights to use a software platform for a specified period of time, after which the license expires and must be renewed by paying the issuer. Common examples would be a Netflix subscription or cloud data storage. The latter often incorporates a capacity constraint as well.
 
-\subsection{Partner With Small Brokerages}
-	\begin{itemize}
-		\item{Bonds}
-		\item{Securities}
-		\item{Commodities}
+SBX licenses work differently. Each time a transaction is performed, a transaction fee is paid by the user to the network nodes who validate it. In this sense, SBX represents a license to use the platform, but is only spent when the licensee actually utilizes it. Additionally, the time-based license structure consumers are used to does not address the need to maintain the platform itself. They trust that a central business entity will continue to provide the service paid for through the duration of the license. The nature of distributed network technology is such that responsibility for maintaining the network falls to the users. Because using the platform requires a license, it’s natural to create a mechanism whereby that license also grants the user the ability to act on this responsibility.
 
-	\end{itemize}
-		
+Separating the responsibility to maintain the network from the rights to use it leads to conflicts of interest, a problem current business models experience frequently. In this scenario, those licensing use of the platform would seek low cost service and sustainability while those maintaining and upgrading the platform would seek to generate profits, even if this responsibility was decentralized. By bundling use rights with maintenance responsibility, we create an ecosystem where equilibrium can be more efficiently achieved.
+
+\subsection{Tokenomics}
+From a token economics perspective, this model creates an ecosystem that is sustainable and balanced. In the previous section we touched on the presence of conflicts of interest when management rights are separated from use rights. This is solved by licensing all rights through a single vehicle. This does not change the conflicting nature of the interests of users and managers, but by utilizing a single vehicle to accomplish both tasks, an equilibrium of these opposing forces is reached.
+
+In essence, this is true because it creates an environment of mutual benefit when users and managers work together, and mutually assured loss when one side acts in a manner that is detrimental to the ecosystem. Consider the platform manager perspective first. Managers in this sense are network nodes that perform transaction validation (all nodes) or vote on changes to the protocol (delegate nodes). If these actors vote to raise fees too high or change the protocol in a way that harms the users, the demand for licensing may decrease and reduce the value of the managers’ stake in the platform. SBX licensees also have the ability to vote for delegate nodes who will in turn vote on proposed changes to the protocol. Consider if these users refuse to allow reasonable transaction fees, or necessary protocol improvements, by voting out any delegate that supported those actions. In that case there would be no incentive to maintain the network and the users’ licenses will likely become worthless because the network would not function. Another scenario would revolve around transaction fees for specific assets charged by consortiums. If the consortium’s fees are not competitive, another consortium will form to challenge them in the market and users will abandon the uncompetitive consortium and the assets associated with it.
+
+
+					
+
 \end{document}

@@ -17,13 +17,23 @@
 \contentsline {section}{\numberline {7}Permissioned Smart Contracts}{12}
 \contentsline {section}{\numberline {8}DPOS Blockchain}{13}
 \contentsline {section}{\numberline {9}Use Cases}{14}
-\contentsline {subsection}{\numberline {9.1}Decentralized Global Asset Exchanges and Clearing Houses}{14}
-\contentsline {subsection}{\numberline {9.2}Automated Asset Registration and Tax Collection}{14}
-\contentsline {subsection}{\numberline {9.3}Back Office Automation}{14}
-\contentsline {subsection}{\numberline {9.4}Enhanced Public Trust}{14}
-\contentsline {section}{\numberline {10}SWAPBlocks Business Plan}{15}
-\contentsline {subsection}{\numberline {10.1}Launch Lisk Clone}{15}
-\contentsline {subsection}{\numberline {10.2}Integrate SWAPBlocks Protocols With Lisk Clone}{15}
-\contentsline {subsection}{\numberline {10.3}Launch A SWAPBlocks Decentralized Exchange Portal}{15}
-\contentsline {subsection}{\numberline {10.4}Create a Fiat Consortium and Register Fiat Assets on SWAPBlocks}{15}
-\contentsline {subsection}{\numberline {10.5}Partner With Small Brokerages}{15}
+\contentsline {subsection}{\numberline {9.1}DLT Global Asset Exchanges \& Clearinghouses}{14}
+\contentsline {subsection}{\numberline {9.2}Foreign Exchange}{14}
+\contentsline {subsection}{\numberline {9.3}Bonds}{15}
+\contentsline {subsection}{\numberline {9.4}Equities}{16}
+\contentsline {subsection}{\numberline {9.5}Crypto/Crypto \& Crypto/Fiat Swaps}{18}
+\contentsline {subsection}{\numberline {9.6}Limited Partnership Shares}{19}
+\contentsline {subsection}{\numberline {9.7}Money Market Instruments}{19}
+\contentsline {subsection}{\numberline {9.8}Commodities}{20}
+\contentsline {subsection}{\numberline {9.9}Derivatives}{20}
+\contentsline {subsection}{\numberline {9.10}Automated Corp to Corp Asset Swaps}{21}
+\contentsline {subsection}{\numberline {9.11}Automated Asset Registration and Tax Collection}{21}
+\contentsline {subsection}{\numberline {9.12}Motor Vehicle Registrations \& Titles}{22}
+\contentsline {subsection}{\numberline {9.13}Real Estate Registration \& Lineage}{22}
+\contentsline {subsection}{\numberline {9.14}Insurance Policies}{22}
+\contentsline {subsection}{\numberline {9.15}Other}{22}
+\contentsline {subsection}{\numberline {9.16}Back Office Automation}{22}
+\contentsline {subsection}{\numberline {9.17}Enhanced Public Trust}{24}
+\contentsline {section}{\numberline {10}The SBX Token}{25}
+\contentsline {subsection}{\numberline {10.1}Structure \& Functionality}{25}
+\contentsline {subsection}{\numberline {10.2}Tokenomics}{26}
