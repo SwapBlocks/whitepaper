@@ -18,22 +18,23 @@
 \contentsline {section}{\numberline {8}DPOS Blockchain}{13}
 \contentsline {section}{\numberline {9}Use Cases}{14}
 \contentsline {subsection}{\numberline {9.1}DLT Global Asset Exchanges \& Clearinghouses}{14}
-\contentsline {subsection}{\numberline {9.2}Foreign Exchange}{14}
-\contentsline {subsection}{\numberline {9.3}Bonds}{15}
-\contentsline {subsection}{\numberline {9.4}Equities}{16}
-\contentsline {subsection}{\numberline {9.5}Crypto/Crypto \& Crypto/Fiat Swaps}{18}
-\contentsline {subsection}{\numberline {9.6}Limited Partnership Shares}{19}
-\contentsline {subsection}{\numberline {9.7}Money Market Instruments}{19}
-\contentsline {subsection}{\numberline {9.8}Commodities}{20}
-\contentsline {subsection}{\numberline {9.9}Derivatives}{20}
-\contentsline {subsection}{\numberline {9.10}Automated Corp to Corp Asset Swaps}{21}
-\contentsline {subsection}{\numberline {9.11}Automated Asset Registration and Tax Collection}{21}
-\contentsline {subsection}{\numberline {9.12}Motor Vehicle Registrations \& Titles}{22}
-\contentsline {subsection}{\numberline {9.13}Real Estate Registration \& Lineage}{22}
-\contentsline {subsection}{\numberline {9.14}Insurance Policies}{22}
-\contentsline {subsection}{\numberline {9.15}Other}{22}
-\contentsline {subsection}{\numberline {9.16}Back Office Automation}{22}
-\contentsline {subsection}{\numberline {9.17}Enhanced Public Trust}{24}
+\contentsline {subsubsection}{\numberline {9.1.1}Foreign Exchange}{14}
+\contentsline {subsubsection}{\numberline {9.1.2}Bonds}{15}
+\contentsline {subsubsection}{\numberline {9.1.3}Equities}{16}
+\contentsline {subsubsection}{\numberline {9.1.4}Crypto/Crypto \& Crypto/Fiat Swaps}{18}
+\contentsline {subsubsection}{\numberline {9.1.5}Limited Partnership Shares}{19}
+\contentsline {subsubsection}{\numberline {9.1.6}Money Market Instruments}{19}
+\contentsline {subsubsection}{\numberline {9.1.7}Commodities}{20}
+\contentsline {subsubsection}{\numberline {9.1.8}Derivatives}{20}
+\contentsline {subsubsection}{\numberline {9.1.9}Automated Corp to Corp Asset Swaps}{21}
+\contentsline {subsection}{\numberline {9.2}Automated Asset Registration and Tax Collection}{21}
+\contentsline {subsubsection}{\numberline {9.2.1}Motor Vehicle Registrations \& Titles}{22}
+\contentsline {subsubsection}{\numberline {9.2.2}Real Estate Registration \& Lineage}{22}
+\contentsline {subsubsection}{\numberline {9.2.3}Insurance Policies}{22}
+\contentsline {subsection}{\numberline {9.3}Back Office Automation}{22}
+\contentsline {subsection}{\numberline {9.4}Enhanced Public Trust}{24}
+\contentsline {subsection}{\numberline {9.5}Other}{24}
 \contentsline {section}{\numberline {10}The SBX Token}{25}
 \contentsline {subsection}{\numberline {10.1}Structure \& Functionality}{25}
-\contentsline {subsection}{\numberline {10.2}Tokenomics}{26}
+\contentsline {subsection}{\numberline {10.2}Tokenomics}{25}
+\contentsline {section}{\numberline {11}Roadmap}{26}
