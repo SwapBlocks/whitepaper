@@ -37,4 +37,4 @@
 \contentsline {section}{\numberline {10}The SBX Token}{25}
 \contentsline {subsection}{\numberline {10.1}Structure \& Functionality}{25}
 \contentsline {subsection}{\numberline {10.2}Tokenomics}{25}
-\contentsline {section}{\numberline {11}Roadmap}{26}
+\contentsline {section}{\numberline {11}Roadmap}{27}

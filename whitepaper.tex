@@ -4,10 +4,43 @@
 \graphicspath{{images/}}
 \usepackage{verbatim}
 
+% Title Packages
+\usepackage{titling}
+
+% Timeline packages
+\usepackage[TS1,T1]{fontenc}
+\usepackage{array, booktabs}
+\usepackage[x11names]{xcolor}
+\usepackage{colortbl}
+\usepackage{caption}
+
+% Header packages
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength\headheight{26pt}
 
 
+% Timeline custom command
+\newcommand{\foo}{\color{LightSteelBlue3}\makebox[0pt]{\textbullet}\hskip-0.5pt\vrule width 1pt\hspace{\labelsep}}
 
-\title{SWAPBlocks \\A Cost Saving Blockchain Protocol\\ for Managing Real Assets}
+% Fancy Header
+\rhead{\includegraphics[width=1cm]{swapblocks_icon.jpg}}
+
+% Title Stuff
+\setlength{\droptitle}{-10em} 
+\pretitle{%
+  \begin{center}
+  \LARGE
+  \includegraphics[width=6cm,height=6cm]{swapblocks_icon.jpg}\\[\bigskipamount]
+}
+
+
+\title{SWAPBlocks \\A Cost Saving Blockchain Protocol for\\
+Asset Issuance \& Exchange}
+
+\posttitle{\end{center}}
+
+	  
 \author{Lance Rogers \& Brandon McPherson}
 
 \date{\today}
@@ -22,7 +55,7 @@
 	
 	
 The rise of DAPP platforms over the last few years has sparked a movement to 
-completely decentralization computing resources.  This movement has led to 
+completely decentralize computing resources.  This movement has led to 
 the creation of many irrational ecosystems where the cost and reliability of
 applications is determined by the market price of the ecosystem's coin. % The unpredictable cost of running
 %DAPPs today hinders many use cases from being implemented. 
@@ -53,10 +86,10 @@ and decentralized control of assets registered on the ledger.
 
 
 
-The SWAPBlocks protocol is a compliment to distributed ledger technology that enables
+The SWAPBlocks protocol is a complement to distributed ledger technology that enables
 asset managing entities to register and control the transfer of assets on a distributed
 ledger.  The SWAPBlocks network is an implementation of this protocol aimed at creating a network
-of clearing houses, making automated swap transactions between all asset classes possible.  Such a network
+of clearinghouses, making automated swap transactions between all asset classes possible.  Such a network
 would remove many of the cost associated with hiring expert facilitators, provide a publicly verifiable
 lineage of each asset, and eliminate the need for two parties to convert to a common currency.
 
@@ -67,13 +100,13 @@ features enable regulated and physical assets to be exchanged as quickly, cheapl
 and easily as cryptocurrency.
 
 The amount of data needed for rights transfer can vary based on the asset class
-and the asset issuer.
+jurisdiction and the asset issuer.
 For this reason data used for additional verification is hashed and discarded by the
 main network, passing on the responsibility of maintaining data details to
 the asset issuer. 
 This helps prevent the chain from becoming bloated with information irrelevant 
 to the majority of the network.  By checking the hash on the network against 
-the hash of the data provided by the registering entity consumers can easily 
+the hash of the data provided by the registering entity counterparties can easily 
 confirm data integrity and detect tampering by the asset manager.
 
 
@@ -88,20 +121,20 @@ genesis transaction. The issuer then runs a node supporting the network and list
 for transactions containing its managed assets.
 
 When a transaction is detected containing a managed asset the issuer processes the 
-transaction and decides to approve or reject the transaction.  This approval can be 
+transaction and decides to approve or reject it.  This approval can be 
 determined by any preset or future case set by the issuer.  Some examples include 
 verifying that the address receiving the asset is legally allowed to receive the asset, 
 verifying that an appropriate transaction fee has been included in the transaction, 
 verifying that an encrypted form sent with the transaction contains the correct 
-information, etc….  It is the responsibility of the issuer to provide consumers with 
+information, etc….  It is the responsibility of the issuer to provide counterparties with 
 asset transfer instructions and the responsibility of the consumer to interpret
 the instructions.
 
 To approve a transaction the issuer must sign the transaction and rebroadcast 
 the transaction to the network. Once the transaction is signed by the issuer
 the transaction will be eligible for the next block.  
-If the issuer does not approve the transaction the transaction will
-time out and will be cleared from all network nodes.
+If the issuer does not approve the transaction it will
+time out and be cleared from all network nodes.
 
 \subsection{Consortium Extension}
 
@@ -111,7 +144,7 @@ of failure.  To solve these problems, issuers can extend the base protocol by
 forming consortiums that operate under consortium agreements.  These consortium 
 agreements keep track of member nodes, consortium governing rules and 
 verification scripts.  By joining a consortium the issuer agrees to process 
-transactions of member nodes in accordance to the agreement and or store 
+transactions of member nodes in accordance to the agreement and/or store 
 the additional data attached to member transactions.
 
 \section{Consortium}
@@ -142,7 +175,7 @@ A consortium agreement is stored
 on the blockchain and acts as the operating agreement for all member nodes. 
 This agreement outlines the processing script, consortium 
 members, number of member signature needed for amendments, routing fee prices, a 
-list of all member nodes static IP’s, etc….
+list of all member nodes' static IP’s, etc….
 
 \subsection{Consortium Routing}
 
@@ -153,7 +186,7 @@ consortium network.  Consortiums can adjust the fee regularly to stay competitiv
 consumers and miners or build out a network. 
 For a miner to 
 increase their chances of receiving a routing fee they can store a dictionary 
-of consortiums node addresses for quick routing.
+of consortiums' node addresses for quick routing.
 
 
 
@@ -161,10 +194,10 @@ of consortiums node addresses for quick routing.
 
 
 The routing DAG contains the information associated with the routing of asset 
-transfer transactions.  For example node x receives the transaction and performs standard 
+transfer transactions.  For example node X receives the transaction and performs standard 
 verification, signs the transaction and broadcast it to the network where it is picked
-by node y. Node y looks up the consortiums address in it's dictionary of 
-consortiums,signs and sends the transaction to consortium member node A.  A performs 
+by node Y. Node Y looks up the consortium's address in its dictionary of 
+consortiums, signs and sends the transaction to consortium member node A. Node A performs 
 consortium verification, signs the transaction and routes the transaction directly to 
 municipal node F.  Node F verifies and signs the transaction. 
 Now this transaction can be included in a block.  When the 
@@ -174,7 +207,7 @@ to the previous one and can only contain one signature per level of verification
 The first signature can be any node in the network, 
 the second signature can be either a consortium member or the municipal node 
 and the third can only be the municipal node.  The amount of signatures needed 
-is determined by the assets assigned weight value. 
+is determined by the asset's assigned weight value. 
 %There will be a disincentive for altering the DAG.
 
 
@@ -182,7 +215,7 @@ is determined by the assets assigned weight value.
 
 \section{Node States}
 
-SWAPBlocks assets view nodes in 3 different states. The state that the node is viewed in 
+SWAPBlocks assets view nodes in three different states. The state that the node is viewed in 
 by the asset determines the level of verification the node is allowed to and should
 perform.
 
@@ -191,8 +224,8 @@ perform.
 	\item Standard Node State
 		\begin{itemize}
 			\item{Any network node that has no ownership stake in an asset}
-			\item{Checks that each transaction output points to a valid UTXOs
-				with matching signatures.}
+			\item{Checks that each transaction output points to a valid UTXO
+				and that all signatures are correct.}
 		\end{itemize}
 	\item Consortium Node State
 		\begin{itemize}
@@ -732,7 +765,28 @@ From a token economics perspective, this model creates an ecosystem that is sust
 
 In essence, this is true because it creates an environment of mutual benefit when users and managers work together, and mutually assured loss when one side acts in a manner that is detrimental to the ecosystem. Consider the platform manager perspective first. Managers in this sense are network nodes that perform transaction validation (all nodes) or vote on changes to the protocol (delegate nodes). If these actors vote to raise fees too high or change the protocol in a way that harms the users, the demand for licensing may decrease and reduce the value of the managers’ stake in the platform. SBX licensees also have the ability to vote for delegate nodes who will in turn vote on proposed changes to the protocol. Consider if these users refuse to allow reasonable transaction fees, or necessary protocol improvements, by voting out any delegate that supported those actions. In that case there would be no incentive to maintain the network and the users’ licenses will likely become worthless because the network would not function. Another scenario would revolve around transaction fees for specific assets charged by consortiums. If the consortium’s fees are not competitive, another consortium will form to challenge them in the market and users will abandon the uncompetitive consortium and the assets associated with it.
 
-\section{Roadmap}
+
+\pagebreak
 					
+\section{Roadmap}
+
+%\begin{table}
+%\centering
+\renewcommand\arraystretch{1.4}
+\begin{tabular}{@{\,}r <{\hskip 5pt} !{\foo} >{\raggedright\arraybackslash}p{12cm}}
+%\addlinespace[1.5ex]
+
+Spring 2018 & SWAPBlocks DPOS Blockchain (Lisk Clone)\\
+Winter 2018 & SWAPBlocks Asset Management Protocol\\
+Spring 2019 & SWAPBlocks in House DEX Portal\\
+Sprint 2019 & Developer Documentation and Tutorials\\
+Summer 2019 & Partnership Development (Trading Shops and Brokerages)\\
+Fall 2019 & Create Fiat Consortium Managing Registered Fiat-backed Assets on SWAPBlocks\\
+Winter 2019 & Strategic Expansion Into New Asset Classes\\
+2020 and Beyond & Contracting With Asset Managers and Governments\\
+
+\end{tabular}
+%\end{table}
+
 
 \end{document}
