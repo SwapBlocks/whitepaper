@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  19 APR 2018 01:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  24 APR 2018 02:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,24 +546,24 @@ s
 (./whitepaper.aux)
 \openout1 = `whitepaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    ... okay on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -639,15 +639,21 @@ Package caption Info: End \AtBeginDocument code.
 <images/swapblocks_icon.jpg, id=1, 801.99625pt x 831.105pt>
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 50. on 
-input line 50.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 51. on 
+input line 51.
 Package pdftex.def Info: Requested size: 170.71259pt x 170.70735pt on input lin
-e 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 50.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 50.
+e 51.
 
+! Extra }, or forgotten \endgroup.
+\@maketitle ...@bspretitle \@title \@bsposttitle }
+                                                   \maketitlehookb {\@bsprea...
+l.51 \maketitle
+               
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 51.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/swapblocks_icon.j
@@ -677,168 +683,172 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
 
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 84. on 
-input line 84.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 85. on 
+input line 85.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-84.
+85.
  [3]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 132. on
- input line 132.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 133. on
+ input line 133.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-132.
+133.
  [4]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 163. on
- input line 163.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 164. on
+ input line 164.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-163.
+164.
  [5]
 <images/consortium.png, id=28, 1651.16875pt x 1104.125pt>
 File: images/consortium.png Graphic file (type png)
 <use images/consortium.png>
-Package pdftex.def Info: images/consortium.png  used on input line 166. on inpu
-t line 166.
+Package pdftex.def Info: images/consortium.png  used on input line 167. on inpu
+t line 167.
 Package pdftex.def Info: Requested size: 331.50238pt x 221.66347pt on input lin
-e 166.
+e 167.
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 212. on
- input line 212.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 213. on
+ input line 213.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-212.
+213.
  [6 <./images/consortium.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 226.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 227.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 226.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 227.
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 241. on
- input line 241.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 242. on
+ input line 242.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-241.
+242.
  [7]
 <images/node_space.png, id=37, 419.81561pt x 135.20174pt>
 File: images/node_space.png Graphic file (type png)
 <use images/node_space.png>
-Package pdftex.def Info: images/node_space.png  used on input line 249. on inpu
-t line 249.
+Package pdftex.def Info: images/node_space.png  used on input line 250. on inpu
+t line 250.
 Package pdftex.def Info: Requested size: 331.50238pt x 106.76073pt on input lin
-e 249.
+e 250.
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 283. on
- input line 283.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 284. on
+ input line 284.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-283.
+284.
  [8 <./images/node_space.png>]
-Overfull \hbox (15.63731pt too wide) in paragraph at lines 308--310
+Overfull \hbox (15.63731pt too wide) in paragraph at lines 309--311
 []\T1/cmr/m/n/12 Default ver-i-fi-ca-tion re-quir-ing the trans-action to in-cl
 ude valid UTXOs
  []
 
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 342. on
- input line 342.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 343. on
+ input line 343.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-342.
+343.
 [9]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 377. on
- input line 377.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 378. on
+ input line 378.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-377.
+378.
  [10]
-Overfull \hbox (46.40991pt too wide) in paragraph at lines 414--416
+Overfull \hbox (46.40991pt too wide) in paragraph at lines 415--417
 []\T1/cmr/m/n/12 To pre-vent users from is-su-ing trans-ac-tions with ex-tremel
 y long max_verify_time's,
  []
 
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 422. on
- input line 422.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 423. on
+ input line 423.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-422.
+423.
 [11]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 459. on
- input line 459.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 460. on
+ input line 460.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-459.
+460.
  [12]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 475. on
- input line 475.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 476. on
+ input line 476.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-475.
+476.
  [13]
+Overfull \hbox (3.85101pt too wide) in paragraph at lines 479--479
+[]\T1/cmr/bx/n/14.4 DLT Global As-set Man-age-ment, Ex-changes & Clear-
+ []
+
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 510. on
- input line 510.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 509. on
+ input line 509.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-510.
- [14]
+509.
+[14]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 537. on
- input line 537.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 536. on
+ input line 536.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-537.
+536.
  [15]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 565. on
- input line 565.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 566. on
+ input line 566.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-565.
+566.
  [16]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 610. on
- input line 610.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 604. on
+ input line 604.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-610.
+604.
  [17]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 636. on
- input line 636.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 629. on
+ input line 629.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-636.
+629.
  [18]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 663. on
- input line 663.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 656. on
+ input line 656.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-663.
+656.
  [19]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 695. on
- input line 695.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 686. on
+ input line 686.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-695.
+686.
  [20]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 715. on
- input line 715.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 713. on
+ input line 713.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-715.
+713.
  [21]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
@@ -849,66 +859,70 @@ Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line
  [22]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 736. on
- input line 736.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 751. on
+ input line 751.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-736.
+751.
  [23]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 752. on
- input line 752.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 781. on
+ input line 781.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-752.
+781.
  [24]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 767. on
- input line 767.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 794. on
+ input line 794.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-767.
+794.
  [25]
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 770. on
- input line 770.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 809. on
+ input line 809.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-770.
-
-[26]
-Overfull \hbox (71.35677pt too wide) in paragraph at lines 776--790
+809.
+ [26]
+Overfull \hbox (71.35677pt too wide) in paragraph at lines 815--829
 [] 
  []
 
 File: images/swapblocks_icon.jpg Graphic file (type jpg)
 <use images/swapblocks_icon.jpg>
-Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 792. on
- input line 792.
+Package pdftex.def Info: images/swapblocks_icon.jpg  used on input line 831. on
+ input line 831.
 Package pdftex.def Info: Requested size: 28.45274pt x 29.48477pt on input line 
-792.
-[27] (./whitepaper.aux) ) 
+831.
+[27] (./whitepaper.aux) )
+(\end occurred inside a group at level 2)
+
+### simple group (level 2) entered at line 51 ({)
+### semi simple group (level 1) entered at line 51 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
  4554 strings out of 494931
  65235 string characters out of 6180851
- 136824 words of memory out of 5000000
+ 136748 words of memory out of 5000000
  7788 multiletter control sequences out of 15000+600000
  15062 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,16n,43p,1363b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecbx1440.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecbx1200.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecbx1728.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecsl1200.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecrm1200.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecrm1095.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecbx1095.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/l
-jfour/jknappen/ec/ecrm1440.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/
-ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb>
-Output written on whitepaper.pdf (27 pages, 376336 bytes).
+ 41i,16n,43p,718b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecbx1440.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecbx1200.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecbx1728.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecsl1200.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/jknapp
+en/ec/ecrm1200.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecrm1095.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecbx1095.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecrm1440.600pk> </home/lance/.texlive2017/texmf-var/fonts/pk/ljfour/jk
+nappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb>
+Output written on whitepaper.pdf (27 pages, 377759 bytes).
 PDF statistics:
- 497 PDF objects out of 1000 (max. 8388607)
+ 502 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
