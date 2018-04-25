@@ -1,0 +1,41 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{SWAPBlocks Protocol}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Base Protocol}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Consortium Extension}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Consortium}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Consortium Agreement}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Consortium Routing}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Routing DAG}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Node States}{}% 9
+\BOOKMARK [1][-]{section.5}{Asset Registration}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{Asset ID}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{Weights}{section.5}% 12
+\BOOKMARK [1][-]{section.6}{Transactions}{}% 13
+\BOOKMARK [2][-]{subsection.6.1}{Transaction Types}{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.2}{SWAP Order Book \(The SWAP DEX\)}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.3}{Transaction Timeout}{section.6}% 16
+\BOOKMARK [1][-]{section.7}{Permissioned Smart Contracts}{}% 17
+\BOOKMARK [1][-]{section.8}{DPOS Blockchain}{}% 18
+\BOOKMARK [1][-]{section.9}{Use Cases}{}% 19
+\BOOKMARK [2][-]{subsection.9.1}{DLT Global Asset Management, Exchanges \046 Clearinghouses}{section.9}% 20
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Foreign Exchange}{subsection.9.1}% 21
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Bonds}{subsection.9.1}% 22
+\BOOKMARK [3][-]{subsubsection.9.1.3}{Equities}{subsection.9.1}% 23
+\BOOKMARK [3][-]{subsubsection.9.1.4}{Crypto/Crypto \046 Crypto/Fiat Swaps}{subsection.9.1}% 24
+\BOOKMARK [3][-]{subsubsection.9.1.5}{Limited Partnership Shares}{subsection.9.1}% 25
+\BOOKMARK [3][-]{subsubsection.9.1.6}{Money Market Instruments}{subsection.9.1}% 26
+\BOOKMARK [3][-]{subsubsection.9.1.7}{Commodities}{subsection.9.1}% 27
+\BOOKMARK [3][-]{subsubsection.9.1.8}{Derivatives}{subsection.9.1}% 28
+\BOOKMARK [3][-]{subsubsection.9.1.9}{Automated Corp to Corp Asset Swaps}{subsection.9.1}% 29
+\BOOKMARK [2][-]{subsection.9.2}{Automated Asset Registration and Tax Collection}{section.9}% 30
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Motor Vehicle Registrations \046 Titles}{subsection.9.2}% 31
+\BOOKMARK [3][-]{subsubsection.9.2.2}{Real Estate Registration \046 Lineage}{subsection.9.2}% 32
+\BOOKMARK [3][-]{subsubsection.9.2.3}{Insurance Policies}{subsection.9.2}% 33
+\BOOKMARK [2][-]{subsection.9.3}{Back Office Automation}{section.9}% 34
+\BOOKMARK [2][-]{subsection.9.4}{Enhanced Public Trust}{section.9}% 35
+\BOOKMARK [2][-]{subsection.9.5}{Other}{section.9}% 36
+\BOOKMARK [1][-]{section.10}{The SBX Token}{}% 37
+\BOOKMARK [2][-]{subsection.10.1}{Structure \046 Functionality}{section.10}% 38
+\BOOKMARK [2][-]{subsection.10.2}{Tokenomics}{section.10}% 39
+\BOOKMARK [2][-]{subsection.10.3}{Supply, Demand \046 Opportunity Cost}{section.10}% 40
+\BOOKMARK [1][-]{section.11}{Roadmap}{}% 41

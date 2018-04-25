@@ -1,40 +1,41 @@
-\contentsline {section}{\numberline {1}Introduction}{4}
-\contentsline {section}{\numberline {2}SWAPBlocks Protocol}{4}
-\contentsline {subsection}{\numberline {2.1}Base Protocol}{4}
-\contentsline {subsection}{\numberline {2.2}Consortium Extension}{5}
-\contentsline {section}{\numberline {3}Consortium}{5}
-\contentsline {subsection}{\numberline {3.1}Consortium Agreement}{6}
-\contentsline {subsection}{\numberline {3.2}Consortium Routing}{6}
-\contentsline {subsection}{\numberline {3.3}Routing DAG}{7}
-\contentsline {section}{\numberline {4}Node States}{7}
-\contentsline {section}{\numberline {5}Asset Registration}{8}
-\contentsline {subsection}{\numberline {5.1}Asset ID}{8}
-\contentsline {subsection}{\numberline {5.2}Weights}{9}
-\contentsline {section}{\numberline {6}Transactions}{10}
-\contentsline {subsection}{\numberline {6.1}Transaction Types}{10}
-\contentsline {subsection}{\numberline {6.2}SWAP Order book (The SWAP DEX)}{11}
-\contentsline {subsection}{\numberline {6.3}Transaction Timeout}{11}
-\contentsline {section}{\numberline {7}Permissioned Smart Contracts}{12}
-\contentsline {section}{\numberline {8}DPOS Blockchain}{13}
-\contentsline {section}{\numberline {9}Use Cases}{14}
-\contentsline {subsection}{\numberline {9.1}DLT Global Asset Management, Exchanges \& Clearinghouses}{14}
-\contentsline {subsubsection}{\numberline {9.1.1}Foreign Exchange}{14}
-\contentsline {subsubsection}{\numberline {9.1.2}Bonds}{15}
-\contentsline {subsubsection}{\numberline {9.1.3}Equities}{17}
-\contentsline {subsubsection}{\numberline {9.1.4}Crypto/Crypto \& Crypto/Fiat Swaps}{18}
-\contentsline {subsubsection}{\numberline {9.1.5}Limited Partnership Shares}{19}
-\contentsline {subsubsection}{\numberline {9.1.6}Money Market Instruments}{19}
-\contentsline {subsubsection}{\numberline {9.1.7}Commodities}{20}
-\contentsline {subsubsection}{\numberline {9.1.8}Derivatives}{20}
-\contentsline {subsubsection}{\numberline {9.1.9}Automated Corp to Corp Asset Swaps}{21}
-\contentsline {subsection}{\numberline {9.2}Automated Asset Registration and Tax Collection}{21}
-\contentsline {subsubsection}{\numberline {9.2.1}Motor Vehicle Registrations \& Titles}{22}
-\contentsline {subsubsection}{\numberline {9.2.2}Real Estate Registration \& Lineage}{22}
-\contentsline {subsubsection}{\numberline {9.2.3}Insurance Policies}{22}
-\contentsline {subsection}{\numberline {9.3}Back Office Automation}{22}
-\contentsline {subsection}{\numberline {9.4}Enhanced Public Trust}{24}
-\contentsline {subsection}{\numberline {9.5}Other}{25}
-\contentsline {section}{\numberline {10}The SBX Token}{25}
-\contentsline {subsection}{\numberline {10.1}Structure \& Functionality}{25}
-\contentsline {subsection}{\numberline {10.2}Tokenomics}{25}
-\contentsline {section}{\numberline {11}Roadmap}{27}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {section}{\numberline {2}SWAPBlocks Protocol}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Base Protocol}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Consortium Extension}{5}{subsection.2.2}
+\contentsline {section}{\numberline {3}Consortium}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Consortium Agreement}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Consortium Routing}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Routing DAG}{7}{subsection.3.3}
+\contentsline {section}{\numberline {4}Node States}{7}{section.4}
+\contentsline {section}{\numberline {5}Asset Registration}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}Asset ID}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Weights}{9}{subsection.5.2}
+\contentsline {section}{\numberline {6}Transactions}{10}{section.6}
+\contentsline {subsection}{\numberline {6.1}Transaction Types}{10}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}SWAP Order Book (The SWAP DEX)}{11}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Transaction Timeout}{11}{subsection.6.3}
+\contentsline {section}{\numberline {7}Permissioned Smart Contracts}{12}{section.7}
+\contentsline {section}{\numberline {8}DPOS Blockchain}{13}{section.8}
+\contentsline {section}{\numberline {9}Use Cases}{14}{section.9}
+\contentsline {subsection}{\numberline {9.1}DLT Global Asset Management, Exchanges \& Clearinghouses}{14}{subsection.9.1}
+\contentsline {subsubsection}{\numberline {9.1.1}Foreign Exchange}{14}{subsubsection.9.1.1}
+\contentsline {subsubsection}{\numberline {9.1.2}Bonds}{15}{subsubsection.9.1.2}
+\contentsline {subsubsection}{\numberline {9.1.3}Equities}{16}{subsubsection.9.1.3}
+\contentsline {subsubsection}{\numberline {9.1.4}Crypto/Crypto \& Crypto/Fiat Swaps}{17}{subsubsection.9.1.4}
+\contentsline {subsubsection}{\numberline {9.1.5}Limited Partnership Shares}{19}{subsubsection.9.1.5}
+\contentsline {subsubsection}{\numberline {9.1.6}Money Market Instruments}{19}{subsubsection.9.1.6}
+\contentsline {subsubsection}{\numberline {9.1.7}Commodities}{20}{subsubsection.9.1.7}
+\contentsline {subsubsection}{\numberline {9.1.8}Derivatives}{20}{subsubsection.9.1.8}
+\contentsline {subsubsection}{\numberline {9.1.9}Automated Corp to Corp Asset Swaps}{21}{subsubsection.9.1.9}
+\contentsline {subsection}{\numberline {9.2}Automated Asset Registration and Tax Collection}{21}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}Motor Vehicle Registrations \& Titles}{21}{subsubsection.9.2.1}
+\contentsline {subsubsection}{\numberline {9.2.2}Real Estate Registration \& Lineage}{22}{subsubsection.9.2.2}
+\contentsline {subsubsection}{\numberline {9.2.3}Insurance Policies}{22}{subsubsection.9.2.3}
+\contentsline {subsection}{\numberline {9.3}Back Office Automation}{22}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Enhanced Public Trust}{24}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Other}{25}{subsection.9.5}
+\contentsline {section}{\numberline {10}The SBX Token}{25}{section.10}
+\contentsline {subsection}{\numberline {10.1}Structure \& Functionality}{25}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Tokenomics}{25}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Supply, Demand \& Opportunity Cost}{26}{subsection.10.3}
+\contentsline {section}{\numberline {11}Roadmap}{28}{section.11}

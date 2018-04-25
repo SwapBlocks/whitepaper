@@ -3,6 +3,7 @@
 \usepackage{graphicx}
 \graphicspath{{images/}}
 \usepackage{verbatim}
+\usepackage{hyperref}
 
 % Title Packages
 \usepackage{titling}
@@ -24,22 +25,28 @@
 \newcommand{\foo}{\color{LightSteelBlue3}\makebox[0pt]{\textbullet}\hskip-0.5pt\vrule width 1pt\hspace{\labelsep}}
 
 % Fancy Header
-\rhead{\includegraphics[width=1cm]{swapblocks_icon.jpg}}
+\rhead{\includegraphics[width=1cm]{swapblocks_icon}
+}
+
 
 % Title Stuff
 \setlength{\droptitle}{-10em} 
 \pretitle{%
   \begin{center}
   \LARGE
-  \includegraphics[width=6cm,height=6cm]{swapblocks_icon.jpg}\\[\bigskipamount]
+  \includegraphics[width=6cm,height=5cm]{swapblocks_logo}
+\\[\bigskipamount]
 }
 
 
-\title{SWAPBlocks\\}
+
+\title{A Cost Saving Blockchain Protocol for\\
+Asset Issuance \& Exchange}
+%\title{SWAPBlocks\\}
 %\title{SWAPBlocks \\A Cost Saving Blockchain Protocol\\
 %For Asset Issuance \& Exchange}
-\posttitle{A Cost Saving Blockchain Protocol\\
-For Asset Issuance \& Exchange}
+%\posttitle{A Cost Saving Blockchain Protocol\\
+%For Asset Issuance \& Exchange}
 
 	  
 \author{Lance Rogers \& Brandon McPherson}
@@ -240,7 +247,7 @@ perform.
 		\begin{itemize}
 			\item{Node owned by the asset issuer.}
 			\item{Responsible for verifying municipal data packets.}
-			\item{Responsible with updating their own outside record keeping systems with
+			\item{Responsible with updating their own outside record keeping systems 
 				with status changes of registered assets.}	
 		\end{itemize}
 \end{enumerate}
@@ -259,7 +266,7 @@ node is in for a particular asset.  The yellow circle represents the municipal n
 that the yellow node registered and manages the asset.  The red circles represent consortium 
 nodes, meaning that each red node is a member of the same consortium as the municipal node.
 The black dots represent standard network nodes that do not have any special permission or
-obligation to provide additional verification for this asset.  
+obligation to provide additional verification for this asset.
 
 %As you can see each node state inherits the traits of the previous state.
 
@@ -306,7 +313,7 @@ a transaction has in it's routing DAG.
 \begin{itemize}
 	\item Weight 0, Standard Verification
 		\begin{itemize}
-			\item{Default verification requiring the trans-action to include
+			\item{Default verification requiring the transaction to include
 				valid UTXOs and signatures.}
 		\end{itemize}
 	\item Weight 1, Consortium Level Verification
@@ -363,7 +370,7 @@ There are 5 basic types of transactions in the SWAPBlocks ecosystem.
 			\item{Contains maker and taker sections. Both sections must
 				be complete and verified for the transaction to be eligible for
 				the next block.}
-			\item{If the bid section is blank, then the transaction is considering pending and can
+			\item{If the bid section is blank, then the transaction will be considered pending and can
 				be filled by any bidder and rebroadcast to the network. These pending SWAP transactions
 				will be stored in the SWAP order book, which is like a mempool for SWAP transactions.} 
 		\end{itemize}
@@ -387,7 +394,7 @@ There are 5 basic types of transactions in the SWAPBlocks ecosystem.
 
 % TRANSACTION DIAGRAMS HERE
 
-\subsection{SWAP Order book (The SWAP DEX)}
+\subsection{SWAP Order Book (The SWAP DEX)}
 The SWAP order book is a specialized mempool for storing unverified SWAP transactions.  What this means is that
 all SWAP transactions without a counterparty will be stored in a separate mempool for quick lookup. 
 Decentralized exchange portals will be able to utilize this mempool to quickly place and fulfil orders.
@@ -412,14 +419,15 @@ The max\_verify\_time will have a constant max time on network launch.
 In the future a proof of importance algorithm may be used to 
 allow users to extend the max\_verify\_time.
 
-To prevent users from issuing transactions with extremely long max\_verify\_time's, transactions max\_verify\_time
+To prevent users from issuing transactions with an extremely long max\_verify\_time, a 
+transaction's max\_verify\_time
 must be less than or equal to a network constant as part of standard verification.
 
 \section{Permissioned Smart Contracts}
 
 SWAPBlocks enables asset transactions to include temporary encrypted data packets. These data
 packets are used by municipal and consortium nodes to make verification decisions.  Asset transactions
-can include two separately encrypted data packets for multi level verification and increased privacy.
+can include two separately encrypted data packets for multi-level verification and increased privacy.
 
 \begin{enumerate}
 	\item Consortium Data Packet:
@@ -464,8 +472,8 @@ rights include but are not limited to the right to execute transactions as descr
 the right to vote for delegates who will secure the blockchain. The purpose of this structure is to create a 
 self-sustaining environment that does not require a central entity to sustain proper functionality. SBX is necessary 
 for the blockchain to be secure, this means SBX license coins cannot exist without the blockchain, and the 
-blockchain cannot be secured without freely transferable SBX. SBX must be fully transferable in order for new network 
-nodes to quickly and easily take the place of network nodes that no longer wish to operate, without the need for 
+blockchain cannot be properly secured without freely transferable SBX. 
+Because supply is limited SBX must be fully transferable in order for new network participants to quickly and easily take the place of participants who no longer wish to be active on the network without the need for 
 a centralized intermediary to facilitate the transition. The base blockchain is based on LISK and will initially allow 
 users to run delegate nodes if elected, vote for delegates, and transfer SBX coins between accounts. In the future 
 users will be able to register assets, earn SBX coins for running delegate and routing nodes and trade assets 
@@ -477,7 +485,7 @@ registered on the SWAPBlocks blockchain.
 \section{Use Cases}
 
 \subsection{DLT Global Asset Management, Exchanges \& Clearinghouses}
-Perhaps the largest opportunity for the SWAPBlocks protocol to make a deep impact in global capital markets. Today, 
+Perhaps the largest opportunity for the SWAPBlocks protocol to make a deep impact is in global capital markets. Today, 
 capital markets operate with significant need for manual validation and intermediation. This inefficiency permeates 
 almost every aspect of the market.
 
@@ -501,9 +509,8 @@ assets as long as the seller accepts them. This provides both parties with many 
 blockchain (immutability, auditability, trustless transfer, custodial flexibility) without subjecting themselves to 
 the purchasing power fluctuations of an asset like Bitcoin.
 
-Parties could also trade with the intent to profit from currency fluctuations as on traditional forex markets. Benefits of 
-using this system are that with SWAPBlocks, there is no intermediary required, and custody of the assets can remain 
-with the owner until the moment of transfer.
+Parties could also trade with the intent to profit from exchange rate fluctuations as they do in traditional forex markets. Benefits of 
+using this system are that with SWAPBlocks, the role intermediaries play is diminished.
 
 Lastly, fiat proxy-assets will enable corporate actions automation using a variety of currencies. This will drastically reduce management costs for securities issuers and improve market efficiency. More detail on this is explored in the following sections.
 
@@ -527,7 +534,7 @@ and sellers can trade almost up to the moment of disbursement without concern fo
 
 Another significant advantage of the platform will be derived from the fact that many assets types will coexist. In 
 section 9.1.1 we discussed the ability for fiat-backed assets to live on SWAPBlocks. Once this is the case, bond 
-issuers will have the ability to disburse P\&I directly to bondholders in any asset type that resides within the ecosystem. 
+issuers will have the ability to disburse P\&I directly to bondholders in any fiat proxy-asset type that resides within the ecosystem. 
 This means a bond could pay interest in USD-backed coins, EUR-backed coins or any other fiat-backed token. 
 Additionally, other assets types could be used as well (bitcoin-backed tokens, etc.). This functionality is important 
 because it enables unprecedented flexibility for issuers and allows them to participate in the benefits of the 
@@ -561,7 +568,7 @@ massive amount of potential liquidity in the debt markets.
 \subsubsection{Equities}
 Many of the advantages discussed in 9.1.1 and 9.1.2 are applicable to equities and other asset types covered here. 
 However, equities do present some distinct attributes. Stocks would work in a similar fashion to bonds on the SWAPBlocks 
-platform with regard to advantages the platform offers in the areas of custody and holder of record issues and cash 
+platform with regard to advantages the platform offers in the areas of custody, holder of record issues and cash 
 dividend disbursement. Areas of distinction from other assets types include:
 
 	\begin{itemize}
@@ -639,7 +646,7 @@ SWAPBlocks can offer investors and investment firms the ability to forego these 
 platform. They could manage those assets in two primary ways. The first would be to issue LP shares as a Weight 2, 
 requiring any asset transfer to be validated by the issuing firm itself. This allows the firm to ensure that any 
 buyers of the shares are whitelisted and legally able to purchase in a given jurisdiction. The second option would 
-be to form a consortium with similar firms as outlined in section 3, with similar firms. In addition to validating each other’s 
+be to form a consortium with similar firms as outlined in section 3. In addition to validating each other’s 
 transactions, the consortium members would share the same rules for LP share transfers as well as whitelisted investors.
 
 This would create a new secondary market that does not exist today and enable investors to unlock liquidity not 
@@ -685,8 +692,7 @@ at any given point, serving as a daily checkpoint for derivative counterparties 
 ).
 
 Futures contracts and other derivative types would trade in a similar fashion, with a clearinghouse, or group of 
-clearinghouses forming a SWAPBlocks consortium and validating transactions on the platform, marking to market based 
-on consortium rules, and cash settling based on consortium rules or the rules of the issuing municipal node.
+clearinghouses forming a SWAPBlocks consortium and validating transactions on the platform, marking to market and settling based on consortium rules or the rules of the issuing municipal node.
 
 The major advantages would be twofold. First, the market would receive price transparency, because trade history 
 and bids/asks would be visible to all participants in real time, effectively removing the intermediary’s moral 
@@ -704,17 +710,23 @@ create one), or more likely for low volume transaction types, at the municipal l
 \subsection{Automated Asset Registration and Tax Collection}
 
 While tradable financial assets may represent a large portion of the opportunity, numerous other types of assets can be represented on the 
-SWAPBlocks platform. The levelled approach to transaction validation creates a flexible framework for asset governance that does not exist 
+SWAPBlocks platform. The tiered approach to transaction validation creates a flexible framework for asset governance that does not exist 
 on other platforms. An entity desiring to issue a token representing ownership of an asset can do so with any level of verification. 
 Consortium nodes can hand off verification data to record keeping systems of their choosing, enabling integration with future and legacy 
 systems.  This allows governments to take advantage of the SWAPBlocks ecosystem without being forced to hire niche specialist for everyday 
 task, retrain all employees or upgrade existing infrastructure.
 
 \subsubsection{Motor Vehicle Registrations \& Titles}
-Vehicle registrations and titles in the US are managed at the state level, however paper records are easily lost or damaged. Each state could issue these documents as tokenized assets that allow vehicle owners to more securely maintain their records and transfer ownership in a trustless manner. Ownership lineage would be easily identified by motor vehicle departments. Transactions of an asset would have to be validated by the municipal node (the DMV) before the transaction was completed. Additionally, the issuing agency could elect to accept tax payments in any asset type supported by the SWAPBlocks platform.
+Vehicle registrations and titles in the US are managed at the state level, however paper records are easily lost 
+or damaged. Each state could issue these documents as tokenized assets that allow vehicle owners to more securely maintain 
+their records and transfer ownership in a trustless manner. Ownership lineage would be easily identified by motor vehicle departments. 
+Transactions of an asset would have to be validated by the municipal node (the DMV) before the transaction was completed. 
+Additionally, the issuing agency could elect to accept tax payments in any asset type supported by the SWAPBlocks platform.
 
 \subsubsection{Real Estate Registration \& Lineage}
-Real estate use cases are similar with regard to ownership lineage and taxation. Many functionalities currently done manually in the real estate market could be improved by utilizing the blockchain. A prime reason why SWAPBlocks is the best platform to do this on is the unique validation governance model.
+Real estate use cases are similar with regard to ownership lineage and taxation. Many functionalities currently done manually in 
+the real estate market could be improved by utilizing the blockchain. A prime reason why SWAPBlocks is the best platform to 
+do this on is the unique validation governance model.
 
 \subsubsection{Insurance Policies}
 Insurers could trade policies between themselves to source liquidity without concern of unsanctioned buyers participating.
@@ -723,7 +735,12 @@ Insurers could trade policies between themselves to source liquidity without con
 \subsection{Back Office Automation}
 Today’s back office functions are comprised of three primary functions. Those functions are settlement, compliance, and data governance. The SWAPBlocks protocol will allow organizations to streamline these functions through the integration of their existing systems.
 
-Settlement of asset transfers is immediate, immutable, and instantaneously auditable on the blockchain. These attributes enable organizations to do away with costly labor capital associated with manual and semi-manual labor processes in use today. It also removes the duplication of work. In the current environment, both parties to a transaction will have their own back office settlement processes, and each party is responsible for performing those tasks and reporting on them. Using the blockchain, both parties reference the same transaction on the public ledger. By integrating their back-office systems with the SWAPBlocks blockchain, users track and report on transaction settlement with ease.
+Settlement of asset transfers is immediate, immutable, and instantaneously auditable on the blockchain. These attributes 
+enable organizations to do away with costly labor capital associated with manual and semi-manual labor processes in use 
+today. It also removes the duplication of work. In the current environment, both parties to a transaction will have their 
+own back office settlement processes, and each party is responsible for performing those tasks and reporting on them. 
+Using the blockchain, both parties reference the same transaction on the public ledger. By integrating their back-office 
+systems with the SWAPBlocks blockchain, users track and report on transaction settlement with ease.
 
 Compliance is the second function of an organization’s back office, and it represents a significant cost for many industries, 
 particularly financials. Compliance processes are improved using the SWAPBlocks platform for asset issuers and investors. 
@@ -755,7 +772,9 @@ offers these entities a new way to build trust by providing a mechanism for publ
 
 What does a real-world example of a relationship between the SWAPBlocks platform and an entity as described above? 
 Consider a contested topic like climate science. This topic is hotly debated and there have been numerous claims of bias 
-and data manipulation for even the most respected organizations such as NOAA1. SWAPBlocks could offer a solution. Because consortium 
+and data manipulation for even the most respected organizations such as 
+NOAA\textsuperscript{\href{https://science.house.gov/news/press-releases/former-noaa-scientist-confirms-colleagues-manipulated-climate-records}{1}}. 
+SWAPBlocks could offer a solution. Because consortium 
 and municipal data packets are hashed prior to being discarded, there is a digital fingerprint of the raw input data. In this example, 
 the climate research entity would publish the underlying data used for their reporting, allowing the public to hash it and verify it 
 matches the hash from the original data.
@@ -773,7 +792,7 @@ the data packets is not made available to inappropriate parties on the front end
 important for instances where public availability of the raw data prior to publishing results would be sub-optimal. For instance, 
 for sampling purposes, if the public could see survey responses it could taint the remaining sampling window, but because the SWAPBlocks 
 platform only reveals the data packet to consortium and/or municipal nodes, that data is managed privately while leaving 
-a unique hash behind on the blockchain, that can be verify study results in the future. 
+a unique hash behind on the blockchain, that can be used to verify study results in the future. 
 
 \subsection{Other}
 
@@ -804,36 +823,41 @@ will likely become worthless because the network would not function. Another sce
 assets charged by consortiums. If a consortium’s fees are not competitive, another consortium will form to challenge them in the 
 market and users will abandon the uncompetitive consortium and the assets associated with it.
 
-\subsection{Supply, Demand & Opportunity Cost}
+\subsection{Supply, Demand \& Opportunity Cost}
 
 Many token-based applications on the market today are structured with a serious flaw. That flaw being that 
 the platform’s native token is not truly necessary and even when it serves a purpose, it is only needed for 
 a brief moment in time. Generally speaking, consider a DAPP on the Ethereum blockchain seeking to perform some of 
 the same functions as we have discussed in section 9. If the token is required to buy/sell, then demand is created, 
-but only for the exact moment in time that the transaction occurs. On the opposite side of that transaction, the 
+but only for the exact moment in time when the transaction occurs. On the opposite side of that transaction, the 
 recipient of that token will only have use for it if they desire to perform additional transactions in the very 
-near future. Otherwise, holding that token represents an opportunity cost, because they will have capital tied up 
-in an asset that they do not currently need when that capital could be earning a return or securing immediate 
+near future. Otherwise, holding that token represents an opportunity cost because their capital will be tied up 
+in an asset that they do not currently need when it could be earning a return or securing immediate 
 utility somewhere else. 
 
 This implies that token holders not wishing to transact on that platform in the very near future are likely to 
 sell their holdings, convert into an asset type that can provide a return and/or immediate utility, and if 
 they need to transact on that platform later they will buy back those tokens right before performing a transaction. 
-Rinse and repeat. This lack of a reason to hold the tokens long term will result in a low equilibrium price that 
+Rinse and repeat. This absence of a reason to hold the tokens long term will result in a low equilibrium price that 
 balances supply and demand. This is the case because available supply will be plentiful. Tokens are only needed at 
-the moment of transaction execution and either party holding beyond that point would incur opportunity costs.
+the moment of utilization and either party holding beyond that point would incur opportunity costs.
 
 This occurs because tokens in these types of DAPP environments only serve one purpose. That purpose being to facilitate 
 a specific transaction type. SWAPBlocks is different, in part because SBX grants rights to engage in many transaction 
 types with many entities, but also because SBX holders have the right to vote for delegate nodes as well. As we 
-have seen from other DPOS platforms, many delegates and would-be delegates offer to allocate a portion of SBX earned 
-from operating the node back to voters, in addition supporting things like platform enhancements in their attempt to win 
+have seen from other DPOS platforms, many delegates and would-be delegates offer to allocate a portion of block rewards and fees earned 
+from operating the node back to voters, in addition to contributions to things like platform enhancements in their attempt to win 
 delegate responsibilities. Because votes are proportional to any licensee’s amount of SBX, these distributions would increase 
 as the licensee accumulates SBX. This provides a reason to hold long term, because selling or transacting entails foregoing 
 the fees and/or block rewards that could be earned. In other words, in this scenario there is an opportunity cost 
-associated with using or selling SBX.
+associated with selling SBX.
 
-Lastly, because SBX licenses are capped, no central entity can issue more. By operating network nodes and receiving fees and/or block rewards, that operator accumulates SBX licensing tokens for their work. They can then resell these licenses to others who wish to transact on the network or accumulate influence via voting rights. By this mechanism, Swapblocks participants can benefit from using SBX licensing rights to transact, supporting the ecosystem via DPoS voting, or by operating a routing, consortium or municipal node.
+Lastly, because SBX licenses are capped, no central entity can issue more. By operating network nodes and receiving fees 
+and/or block rewards, that operator accumulates SBX licensing tokens for their work. They can then resell those licenses 
+to others who wish to transact on the network or accumulate influence via voting rights. By this mechanism, SWAPBlocks 
+participants can benefit from using SBX licensing rights to transact, supporting the ecosystem via DPOS voting, or by 
+operating a routing, consortium or municipal node.
+
 \pagebreak
 					
 \section{Roadmap}
@@ -846,7 +870,7 @@ Lastly, because SBX licenses are capped, no central entity can issue more. By op
 
 Spring 2018 & SWAPBlocks DPOS Blockchain (Lisk Clone)\\
 Winter 2018 & SWAPBlocks Asset Management Protocol\\
-Spring 2019 & SWAPBlocks in House DEX Portal\\
+Spring 2019 & SWAPBlocks DEX Portal\\
 Sprint 2019 & Developer Documentation and Tutorials\\
 Summer 2019 & Partnership Development (Trading Shops and Brokerages)\\
 Fall 2019 & Create Fiat Consortium Managing Registered Fiat-backed Assets on SWAPBlocks\\
