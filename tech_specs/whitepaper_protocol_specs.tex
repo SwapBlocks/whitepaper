@@ -311,12 +311,18 @@ There are 5 basic types of transactions in the SWAPBlocks ecosystem.
 		\end{itemize}
 	\item Asset Swap
 		\begin{itemize}
+				
 			\item{Transaction in which two parties agree to swap 
 				ownership of two assets with the contingency that 
 				each transaction clears before the swap completes.}
 			\item{Contains maker and taker sections. Both sections must
 				be complete and verified for the transaction to be eligible for
 				the next block.}
+			\item{Consist of two transaction types, LOCK and UNLOCK.} 
+				\begin{itemize}
+					\item{LOCK transactions lock the asset swaps in the opposing wallets.}  
+					\item{Requires an UNLOCK transaction be broadcast to finalize ownership of the new assets. If an UNLOCK transaction is not broadcast before the valid\_to\_date, the swap transaction reverses.}
+				\end{itemize}
 			\item{If the bid section is blank, then the transaction will be considered pending and can
 				be filled by any bidder and rebroadcast to the network. These pending SWAP transactions
 				will be stored in the SWAP order book, which is like a mempool for SWAP transactions.} 
